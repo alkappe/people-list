@@ -8,8 +8,7 @@ import style from './App.module.scss'
 function App() {
 
   const [users, displayUsers] = useState([])
-
-  //!!!!!! metti stringa con un termire per testare, non stressare nominatim !!!!!!!!!!
+  
   const [ errorMessage, setErrorMessage] = useState(null)
 
   const getCountryFromUser = async(user) =>  {

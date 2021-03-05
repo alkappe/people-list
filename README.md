@@ -1,25 +1,26 @@
-# 👀 people-list 🕵🏾‍♂️
+# 👀📄 people-list 🕵🏾‍♂️
 
 ## Functionality of the App
-In this app you can explore people and see their personal data in card mode:
-- By typing a name in the search bar, the app is reactive to show the people filtered.
-- The data displayed are: the name, the address, the country and the website
-- The country is shown by calculating the provided latitude and longitude, for the reverse geocoding I use OpenStreetMap. 
-- 
+In this app you can visualize personal data as a list of cards.
+Features:
+- When the user types in the search bar, the list of cards is filtered in order to show only the cards having a matching username. When a search is performed, the list pagination resets to the first page.
+- For each user the following data is shown: name, address, country and  website url.
+- The country calculated by reverse geocoding the provided latitude and longitude, using Nominatim OpenStreetMap. 
+- Search state is managed with Redux
 
-Enjoy it! 🍻
-This app is thought to be absolutely responsive, you can swipe the user's card to have a complete view of everything.
-
+Enjoy! 🍻
+This app is designed to be responsive, you can swipe the user's card to have a complete view of everything.
 
 ### Next steps
 
-- empty state per il loeader
-- test
+- Display an empty card state instead of a loading emoji
+- Jest tests
+- Automatically load the next page when the last card is swiped when in mobile mode
 
-### Thanks to 
+### Troubleshooting
+Nominatim is rate limited, and it might refuse to perform a reverse geocoding operation. In this case the error is handled by showing a message inviting the user to reload the page and retry.### Thanks to 
 
-https://manuelpinto.in for linear gradient animations on stored items.
-
+https://manuelpinto.in for linear gradient animations on card buttons.
 
 
 
