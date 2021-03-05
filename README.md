@@ -1,3 +1,29 @@
+# 👀 people-list 🕵🏾‍♂️
+
+## Functionality of the App
+In this app you can explore people and see their personal data in card mode:
+- By typing a name in the search bar, the app is reactive to show the people filtered.
+- The data displayed are: the name, the address, the country and the website
+- The country is shown by calculating the provided latitude and longitude, for the reverse geocoding I use OpenStreetMap. 
+- 
+
+Enjoy it! 🍻
+This app is thought to be absolutely responsive, you can swipe the user's card to have a complete view of everything.
+
+
+### Next steps
+
+- empty state per il loeader
+- test
+
+### Thanks to 
+
+https://manuelpinto.in for linear gradient animations on stored items.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

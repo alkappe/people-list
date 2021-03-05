@@ -1,0 +1,36 @@
+.searchBar {
+    width: 100%;
+    margin: 20px 0 40px 0;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width:992px){
+    .searchBar  {
+        width: auto;
+    }
+}
+
+.searchBar input {
+    width: 100%;
+    width: 240px;
+    margin: 0 30px;
+    padding: 20px 30px;
+    background: #fff;
+    border-radius: 50px;
+    border: .1px solid hsla(0,0%,87.8%,.5);
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048);
+    outline: none;
+    font-size: 18px;
+
+}
+
+@media only screen and (min-width:992px){
+    .searchBar input {
+        width: 200px;
+    }
+}
