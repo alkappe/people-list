@@ -8,7 +8,7 @@ Features:
 - The country calculated by reverse geocoding the provided latitude and longitude, using Nominatim OpenStreetMap. 
 - Search state is managed with Redux
 
-Enjoy! 🍻
+Enjoy! 🍻 
 This app is designed to be responsive, you can swipe the user's card to have a complete view of everything.
 
 ### Next steps
