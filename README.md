@@ -20,6 +20,7 @@ This app is designed to be responsive, you can swipe the user's card to have a c
 ### Troubleshooting
 Nominatim is rate limited, and it might refuse to perform a reverse geocoding operation. In this case the error is handled by showing a message inviting the user to reload the page and retry.### Thanks to 
 
+### Thanks
 https://manuelpinto.in for linear gradient animations on card buttons.
 
 
